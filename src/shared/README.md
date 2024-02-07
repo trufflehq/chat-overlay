@@ -1,0 +1,3 @@
+Functions you want to share with multiple pages/components. Utils, etc...
+
+Combine all similar functions in a shared file. eg everything relating to the `user` should be in `shared/user.ts`

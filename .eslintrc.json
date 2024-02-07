@@ -1,0 +1,6 @@
+{
+  "extends": ["truffle-react"],
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json"
+  }
+}

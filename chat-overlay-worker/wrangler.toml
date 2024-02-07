@@ -1,0 +1,11 @@
+name = "chat-overlay-worker"
+main = "src/index.ts"
+compatibility_date = "2023-09-04"
+
+[[durable_objects.bindings]]
+name = "CHAT_OVERLAY"
+class_name = "ChatOverlay"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["ChatOverlay"]
